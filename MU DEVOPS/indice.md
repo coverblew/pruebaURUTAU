@@ -1,0 +1,139 @@
+# Índice: MU DEVOPS
+
+
+## Administración de Sistemas para Cloud
+
+- [tema1](Administración de Sistemas para Cloud/tema1.md)
+- [tema10](Administración de Sistemas para Cloud/tema10.md)
+- [tema2](Administración de Sistemas para Cloud/tema2.md)
+- [Script de prueba](Administración de Sistemas para Cloud/tema3.md)
+- [Gestionar los argumentos](Administración de Sistemas para Cloud/tema4.md)
+  - Preparar el repositorio (apt-get) de mongodb añadir su clave apt
+  - Instalar paquetes comunes, servidor, shell, balanceador de shards y herramientas
+  - Crear las carpetas de logs y datos con sus permisos
+  - Establecer el dueño y el grupo de las carpetas db y log
+  - Crear el archivo de configuración de mongodb con el puerto solicitado
+  - /etc/mongod.conf
+  - Reiniciar el servicio de mongod para aplicar la nueva configuracion
+  - Crear usuario con la password proporcionada como parametro
+  - Preparar el repositorio (apt-get) de mongodb añadir su clave apt
+  - Instalar paquetes comunes, servidor, shell, balanceador de shards y herramientas
+  - Crear las carpetas de logs y datos con sus permisos
+  - Establecer el dueño y el grupo de las carpetas db y log
+  - /etc/mongod.conf
+  - Crear usuario con la password proporcionada como parametro
+  - Gestionar las opciones
+  - Instalar PHP-FPM usando apt-get o yum dependiendo de la plataforma
+  - Solo se soporta la instalacion en la release 7 de RedHat y CentOS
+  - Configuracion de SElinux
+  - Preparacion de yum con los repositorios de nginx y php-fpm
+  - Instalacion y configuracion de nginx
+  - Instalacion y configuracion de php-fom
+  - Limpieza de archivos temporales tras la instalacion
+  - configuracion de respositorios
+  - Crear el archivo del site de nginx
+  - La configuracion por defecto de PHP-FPM es suficiente
+  - Creacion de un fichero de prueba en la raiz
+  - Sera accesible tras la instalacion en http://<ip\_del\_servidor>/info.php
+  - Instalar PHP-FPM usando apt-get o yum dependiendo de la plataforma
+  - Solo se soporta la instalacion en la release 7 de RedHat y CentOS
+  - ... prosigue la instalación en RedHat y CentOS
+  - ... prosigue la instalación en Ubuntu
+  - verificacion de parametros
+  - configuracion para githubb por SSH
+  - instalacion de curl y git en funcion de la distribucion
+  - metodo alternativo de deteccion de distribucion
+  - instalacion de nodeJS y npm
+  - herramienta para ejecutar una script indefinidamente
+  - la aplicacion no sera un servicio, pero se comportara como tal
+  - descarga del codigo del respositorio
+  - clonado inicial
+  - actualización de nuevos commits
+  - instalacion de las dependencias de nodeJS
+  - parada de los procesos de forever
+  - arranque del script de entrada de la aplicacion
+  - verificacion de parametros
+  - descarga del codigo del respositorio
+  - clonado inicial
+  - actualización de nuevos commits
+  - instalacion de las dependencias de nodeJS
+  - parada de los procesos de forever
+- [cat /proc/cpuinfo](Administración de Sistemas para Cloud/tema5.md)
+  - m h dom mon dow user command
+- [tema6](Administración de Sistemas para Cloud/tema6.md)
+- [comentario en una linea](Administración de Sistemas para Cloud/tema7.md)
+- [inicializar y verificar los componentes del nombre de dominio](Administración de Sistemas para Cloud/tema8.md)
+  - guardar la contraseña como un objeto seguro
+  - cambiar la contraseña del administrador
+  - configurar reglas de firewall necesarias
+  - configurar los servidores dns en la NIC
+  - instalar los servicios y herramientas del directorio activo
+  - crear el bosque y el dominio
+  - inicializar y verificar los componentes del nombre de dominio
+  - guardar la contraseña como un objeto seguro
+  - cambiar la contraseña del administrador
+  - configurar reglas de firewall necesarias
+  - configurar los servidores dns en la NIC
+  - instalar los servicios y herramientas del directorio activo
+  - crear el bosque y el dominio
+  - inicializar y verificar los componentes del nombre de dominio
+  - guardar la contraseña como un objeto seguro
+  - crear la unidad organizativa
+  - crear 5 usuarios de prueba
+  - crear 3 grupos y añadir todos los usuarios a todos los grupos
+  - crear la unidad organizativa
+  - crear 5 usuarios de prueba
+  - crear 3 grupos y añadir todos los usuarios a todos los grupos
+- [tema9](Administración de Sistemas para Cloud/tema9.md)
+
+## Cloud Computing, DevOps y DevOps Culture
+
+- [tema1](Cloud Computing, DevOps y DevOps Culture/tema1.md)
+- [tema10](Cloud Computing, DevOps y DevOps Culture/tema10.md)
+- [tema2](Cloud Computing, DevOps y DevOps Culture/tema2.md)
+- [tema3](Cloud Computing, DevOps y DevOps Culture/tema3.md)
+- [tema4](Cloud Computing, DevOps y DevOps Culture/tema4.md)
+- [tema5](Cloud Computing, DevOps y DevOps Culture/tema5.md)
+- [tema6](Cloud Computing, DevOps y DevOps Culture/tema6.md)
+- [tema7](Cloud Computing, DevOps y DevOps Culture/tema7.md)
+- [tema8](Cloud Computing, DevOps y DevOps Culture/tema8.md)
+- [tema9](Cloud Computing, DevOps y DevOps Culture/tema9.md)
+
+## Herramientas DevOps
+
+- [Copyright 2016 Google Inc. All rights reserved.](Herramientas DevOps/Herramientas DevOps Tema 1.md)
+  - Licensed under the Apache License, Version 2.0 (the "License");
+  - you may not use this file except in compliance with the License.
+  - You may obtain a copy of the License at
+  - http://www.apache.org/licenses/LICENSE-2.0
+  - Unless required by applicable law or agreed to in writing, software
+  - distributed under the License is distributed on an "AS IS" BASIS,
+  - WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  - See the License for the specific language governing permissions and
+  - limitations under the License.
+  - Put all your resources under `resources:`. For each resource, you need:
+  - - The type of resource. In this example, the type is a Compute VM instance.
+  - - An internal name for the resource.
+  - - The properties for the resource. In this example, for VM instances, you add
+  - the machine type, a boot disk, network information, and so on.
+  - For a list of supported resources,
+  - see https://cloud.google.com/deployment-manager/docs/configuration/supported-resource-types.
+  - The properties of the resource depend on the type of resource. For a list
+  - of properties, see the API reference for the resource.
+  - Replace [MY\_PROJECT] with your project ID
+  - See a full list of image families at https://cloud.google.com/compute/docs/images#os-compute-support
+  - The format of the sourceImage URL is: https://www.googleapis.com/compute/v1/projects/[IMAGE\_PROJECT]/global/images/family/[FAMILY\_NAME]
+  - Replace [MY\_PROJECT] with your project ID
+  - Access Config required to give the instance a public IP address
+- [Herramientas DevOps Tema 2](Herramientas DevOps/Herramientas DevOps Tema 2.md)
+- [Herramientas DevOps Tema 3](Herramientas DevOps/Herramientas DevOps Tema 3.md)
+- [Herramientas DevOps Tema 4](Herramientas DevOps/Herramientas DevOps Tema 4.md)
+- [...](Herramientas DevOps/Herramientas DevOps Tema 5.md)
+  - ...
+  - ...
+  - ...
+  - New resource for the S3 bucket our application will use.
+  - NOTE: S3 bucket names must be unique across \_all\_ AWS accounts, so
+  - this name must be changed before applying this example to avoid naming # conflicts.
+  - Change the aws\_instance we declared earlier to now include "depends\_on"
+  - Tells Terraform that this EC2 instance must be created only after the # S3 bucket has been created.
